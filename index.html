@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome To The God's Own Country </title>
+		<link rel="stylesheet" type="text/css" href="">
+		<style type="text/css">
+			html {
+				scroll-behavior: smooth;
+			}
+
+			body {
+				margin: 0px ;
+				
+				
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			.container {
+				background-image: url(Pictures/2.jpg);				
+				background-size: cover; 
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				height: 700px;
+				margin: 0px ;
+			}
+
+			.logo img {
+				width: 65px;
+				padding-top: 32px;
+				padding-left: 35px;
+				float: left;
+			}
+
+			.nav ul {
+				font-family: poppins;
+				text-align: right;
+				padding-top: 30px;
+				padding-right: 20px;
+				float: right;
+			}
+
+			.nav li {
+				display: inline-block;
+				list-style-type: none;
+				padding-left: 65px;
+				
+
+			}
+
+			.head1 {
+				font-size: 100px;
+				color: #fff;
+				font-family: Poppins;
+				font-weight: 500;
+				line-height: 80px;
+
+			}
+
+			.main {
+				padding-top: 325px;
+				padding-left: 50px;
+			}
+
+			.nav1 {
+				color: #dedede;
+			}
+
+			.nav1:hover {
+				color: #fff;
+				transition-duration: 0.2s;
+			}
+
+			.nav2 {
+				color: #fff;
+			}
+
+			.explore {
+				padding: 5px 50px;
+				background-color: #fff;
+				border: #fff 0px;
+				border-radius: 50px;
+				font-family: poppins;
+				font-size: 17px;
+				border: solid #fff 1px;
+			}
+
+			.explore-btn {
+				padding-top: 20px;
+				padding-left: 50px;
+				font-family: poppins;
+				font-size: 20px;
+
+			}
+
+			.explore:hover .container {
+				filter: grayscale(100%);
+			}
+
+			.explore:hover {
+				border: solid #fff 1px;
+				transition-duration: 0.5s;
+				background-color: transparent;
+				color: #fff;
+
+			}
+
+			.aravind {
+				background-color: #000;
+				color: #fff;
+				font-family: Poppins;
+				font-size: 18px;
+				text-align: center;
+				padding: 10px;
+			}
+
+			.aravind-c  a{
+				color: #ffd700;
+				font-size: 20px;
+			}
+
+			.places {
+				font-family: Poppins;
+				font-size: 60px;
+				text-align: center;
+				padding-top: 75px;
+				scroll-behavior: smooth;
+			}
+
+			.places::after {
+				content: '';
+				width: 250px;
+				height: 4px;
+				background-color: #000;
+				position: absolute;	
+				top: 857px;
+				left: 550px;
+
+
+			}
+
+			.grid1 {
+				display: grid;
+			  	grid-column-gap: 0px;
+			  	grid-row-gap: 0px;
+			 	grid-template-columns: auto auto auto;
+			 	padding: 0px;
+			 	text-align: center;
+			 	padding-top: 75px;
+			 	position: relative;
+			}
+
+			.alapuzha img, .nilambur img, .silent-valley img{
+				width: 375px;
+				filter: grayscale(100%);
+				position: relative;
+			}
+
+			.alapuzha img:hover, .nilambur img:hover, .silent-valley img:hover {
+				filter: none;
+				transition-duration: 0.5s;
+			}
+
+			.alapuzha .alapuzha-txt {
+				position: absolute;
+				left: 45px;
+				bottom: 10px;
+				color: #fff; 
+				font-family: Poppins;
+				font-size: 20px;
+				visibility: hidden;				
+			}
+
+			.alapuzha:hover .alapuzha-txt {
+				visibility: visible;
+				transition-duration: 0.2s;
+			}
+
+			.nilambur .nilambur-txt {
+				position: absolute;
+				left: 500px;
+				bottom: 10px; 
+				color: #fff; 
+				font-family: Poppins;
+				font-size: 20px;
+				visibility: hidden;
+			}
+
+			.nilambur:hover .nilambur-txt {
+				visibility: visible;
+				transition-duration: 0.2s;
+			}
+
+			.silent-valley .silent-valley-txt {
+				position: absolute;
+				left: 950px;
+				bottom: 10px; 
+				color: #fff; 
+				font-family: Poppins;
+				font-size: 20px;
+				visibility: hidden;
+			}
+
+			.silent-valley:hover .silent-valley-txt {
+				visibility: visible;
+				transition-duration: 0.2s;
+			}
+
+
+
+			.footer {
+				background-color: #000;
+				
+			}
+
+
+			.aravind {
+				background-color: #000;
+				color: #fff;
+				font-family: Poppins;
+				font-size: 18px;
+				text-align: center;
+				padding: 10px;
+				border-top: solid 1px;
+			}
+
+			.aravind-c  a{
+				color: #ffd700;
+				font-size: 20px;
+			}
+
+			.site-map {
+				color: #ffd700;
+				background-color: #000;
+				font-family: Poppins;
+				font-weight: 400;
+				padding-top: 20px;
+				padding-left: 37px;
+				font-size: 25px;
+
+				
+			}
+
+			.links {
+				background-color: #000;
+				
+			}
+
+			.links ul {
+				font-family: poppins;
+				padding-bottom: 25px;
+
+			}
+
+			.links li {
+				display: block;
+				background-color: #000;
+			}
+
+			.links1 {
+				color: #9d9d9d;
+			}
+
+			.links1:hover {
+				color: #fff;
+			}
+
+			.other {
+				color: #fff;
+				float: right;
+				font-size: 20px;
+				font-family: Poppins;
+				padding-right: 100px;
+				padding-top: 25px;
+			}
+
+			.official a {
+				color: #ffd700;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="container">
+			
+			<div class="fullnav">
+				<div class="logo" >
+					<a href="index.html"><img  src="Pictures/Logo.png"> </a>
+				</div>
+
+				<div class="nav">
+					<ul>
+						<a href=""><li class="nav2">HOME</li></a>
+						<a href="#places"><li class="nav1">EXPLORE</li></a>
+						<a href=""><li class="nav1">WHERE TO STAY</li></a>
+						<a href=""><li class="nav1">PLAN A TRIP</li></a>
+					</ul>
+				</div>
+
+			</div>	
+
+			<div class="main"> 
+				<div class="head1">
+					GOD'S
+				</div>
+
+				<div class="head1">
+					OWN
+				</div>
+
+				<div class="head1">
+					COUNTRY
+				</div>
+			</div>	
+
+			<div class="explore-btn">
+				<a href="#places"><button class="explore" >EXPLORE</button></a>
+			</div>
+
+			
+
+		</div>			
+ 		
+		<div class="places" id="places">
+			Places To Visit
+		</div>
+
+
+		<div class="grid1">
+			<div class="alapuzha">
+				<a href="https://en.wikipedia.org/wiki/Ponmudi"><img src="Pictures/Alapuzha.jpg"></a>
+				<span class="alapuzha-txt">Alapuzha</span>
+			</div>
+
+			<div class="nilambur">
+				<a href="https://en.wikipedia.org/wiki/Nilambur"><img src="Pictures/Nilambur.jpg"></a>
+				<span class="nilambur-txt">Nilambur</span>
+			</div>
+
+			<div class="silent-valley">
+				<a href="https://en.wikipedia.org/wiki/Silent_Valley_National_Park"><img src="Pictures/silent valley.jpg"></a>
+				<span class="silent-valley-txt">Silent Valley</span>
+			</div>
+		</div>
+
+
+
+		<br><br>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<br><br>
+		<br>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="fullfooter">
+		
+			<div class="footer">
+
+				<div class="site-map">
+					SITEMAP
+				</div>
+
+				<div class="other">
+					For More Check Out The Official Website Of <span class="official"><a href="https://keralatourism.org">Kerala Tourism </span></a>
+				</div>
+
+				<div class="links">
+					<ul>
+						<a href=""><li class="links1">HOME</li></a>
+						<a href="#places"><li class="links1">EXPLORE</li></a>
+						<a href=""><li class="links1">WHERE TO STAY</li></a>
+						<a href=""><li class="links1">PLAN A TRIP</li></a>
+					</ul>
+				</div>
+				
+				<div class="aravind" >
+					© Developed By <span class="aravind-c"><a href="https://aravindsuryaal.github.io">Aravind</a> </span>
+				</div>
+
+			</div>
+
+			
+
+		</div>
+
+		<script type="text/javascript"> alert('View This Website On A Laptop/Desktop. Hover over the elements to see hover effects.') </script>	
+	</body>
+</html>
