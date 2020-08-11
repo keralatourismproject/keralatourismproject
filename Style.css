@@ -1,0 +1,307 @@
+html {
+				scroll-behavior: smooth;
+			}
+
+			body {
+				margin: 0px ;
+				background-color:	#f8f9fa;
+				
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			.container {
+				background-image: url(Pictures/2.jpg);				
+				background-size: cover; 
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				height: 700px;
+				margin: 0px ;
+			}
+
+			.logo img {
+				width: 65px;
+				padding-top: 32px;
+				padding-left: 35px;
+				float: left;
+			}
+
+			.nav ul {
+				font-family: poppins;
+				text-align: right;
+				padding-top: 30px;
+				padding-right: 20px;
+				float: right;
+			}
+
+			.nav li {
+				display: inline-block;
+				list-style-type: none;
+				padding-left: 65px;
+				
+
+			}
+
+			.head1 {
+				font-size: 100px;
+				color: #fff;
+				font-family: Poppins;
+				font-weight: 500;
+				line-height: 80px;
+
+			}
+
+			.main {
+				padding-top: 325px;
+				padding-left: 50px;
+			}
+
+			.nav1 {
+				color: #dedede;
+			}
+
+			.nav1:hover {
+				color: #fff;
+				transition-duration: 0.2s;
+			}
+
+			.nav2 {
+				color: #fff;
+			}
+
+			.explore {
+				padding: 5px 50px;
+				background-color: #fff;
+				border: #fff 0px;
+				border-radius: 50px;
+				font-family: poppins;
+				font-size: 17px;
+				border: solid #fff 1px;
+			}
+
+			.explore-btn {
+				padding-top: 20px;
+				padding-left: 50px;
+				font-family: poppins;
+				font-size: 20px;
+
+			}
+
+			.explore:hover .container {
+				filter: grayscale(100%);
+			}
+
+			.explore:hover {
+				border: solid #fff 1px;
+				transition-duration: 0.5s;
+				background-color: transparent;
+				color: #fff;
+
+			}
+
+			
+			
+
+			.places {
+				font-family: Poppins;
+				font-size: 60px;
+				text-align: center;
+				padding-top: 100px;
+				scroll-behavior: smooth;
+				color: #1ABC9C ;
+			}
+
+			
+
+			.list {
+				padding-top: 50px;
+				position: relative;	
+			}
+
+
+
+			.footer {
+				background-color: #000;
+				
+			}
+
+
+			.aravind {
+				background-color: #000;
+				color: #fff;
+				font-family: Poppins;
+				font-size: 18px;
+				text-align: center;
+				padding: 10px;
+				border-top: solid 1px;
+			}
+
+			.aravind-c a {
+				color: #1ABC9C ;
+			}
+
+			.aravind-c a:hover {
+				color: #ffd700;
+				
+				transition-duration: 0.2s;
+			}
+
+			.site-map {
+				color: #1ABC9C; 
+				background-color: #000;
+				font-family: Poppins;
+				font-weight: 400;
+				padding-top: 20px;
+				padding-left: 37px;
+				font-size: 25px;
+
+				
+			}
+
+			.links {
+				background-color: #000;
+				
+			}
+
+			.links ul {
+				font-family: poppins;
+				padding-bottom: 25px;
+
+			}
+
+			.links li {
+				display: block;
+				background-color: #000;
+			}
+
+			.links1 {
+				color: #9d9d9d;
+			}
+
+			.links1:hover {
+				color: #fff;
+			}
+
+			.other {
+				color: #fff;
+				float: right;
+				font-size: 20px;
+				font-family: Poppins;
+				padding-right: 100px;
+				padding-top: 35px;
+
+				}
+
+			.official a {
+				color: #1ABC9C ;
+			}
+
+			.bus {
+				background-image: url(Pictures/bus.jpg);
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			.bus-btn {
+				padding: 5px 30px;
+				font-family: poppins;
+				font-size: 20px;
+				background-color: transparent;
+				border: solid 1px #fff;
+				color: #fff;
+			}
+
+			.bus-btn:hover {
+				background-color: #fff;
+				transition-duration: 0.5s;
+				color: #000;
+			}
+
+			.bus-btn-div {
+				text-align: center;
+				padding: 80px;
+				margin-bottom: 75px;
+				margin-top: 100px;
+
+			}
+
+			.things-to-do ul {
+				text-decoration: none;
+				list-style-type: none;
+				display: inline-block;
+
+			}
+
+			.ttd-head {
+				font-family: Poppins;
+				font-size: 60px;
+				text-align: center;
+				padding-top: 150px;
+				color: #1ABC9C ;
+
+			}
+
+			.cards {
+				text-align: center;
+				font-family: Poppins;
+				padding-right: 50px;
+			}
+
+			.village, .cuisines, .woods {
+				background-color: #fff;
+				border-radius: 10px;
+				width: 300px;
+				display: inline-block;
+				margin: 25px;
+				padding: 25px;
+				box-shadow: -10px 10px 25px #dedede;
+				color: #000;
+				filter: grayscale(100%);
+			}
+
+			.village:hover, .cuisines:hover, .woods:hover {
+				filter: none;
+				transition-duration: 0.5s;
+			}
+			
+			
+			.v-i, .c-i, .w-i {
+				width: 300px;
+			}
+
+			.v-h, .c-h, .w-h {
+				font-size: 20px;
+				padding-bottom: 20px;
+				padding-top: 10px;
+				font-weight: 500;
+			}
+
+
+
+			.v-b, .c-b, .w-b {
+				text-align: justify;
+			}
+
+			.w-h {
+				font-size: 18px;
+			}
+
+			.view-more {
+				float: right;
+				font-family: Poppins;
+
+			}
+
+			.view-more a {
+				color: #9d9d9d;
+			}
+
+			.view-more a:hover {
+				color: #000;
+				transition-duration: 0.2s;
+			}
+
+
+

@@ -1,0 +1,126 @@
+
+
+		body {
+			margin: 0px; 
+		}	
+
+		.list {
+			text-align: center;
+			padding-right: 0px;
+		}
+
+		.list ul {
+			display: inline-block;
+		}
+
+		.list li {
+			display: inline-block;
+			padding-right: 40px;
+		}
+
+		.list img {
+			width: 350px;
+			filter: grayscale(100%);
+		}
+
+		.list img:hover {
+			filter: none;
+			transition-duration: 0.5s;
+			position: relative;
+		}
+
+		.alapuzha .alapuzha-txt {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 235px;
+			left: 115px;
+			visibility: hidden;
+		}
+
+		.alapuzha:hover .alapuzha-txt {
+			visibility: visible;
+			transition-duration: 0.5s;
+		}
+
+		.nilambur .nilambur-txt {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 235px;
+			left: 515px;
+			visibility: hidden;	
+
+		}
+
+		.nilambur:hover .nilambur-txt {
+			visibility: visible;
+			transition-duration: 5s;
+		}
+
+		.silent-valley .silent-valley-txt {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 235px;
+			left: 915px;
+			visibility: hidden;
+		}
+
+		.silent-valley:hover .silent-valley-txt {
+			visibility: visible;
+			transition-duration: 5s;
+		}
+
+		.alapuzha .alapuzha-txt2 {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 465px;
+			left: 115px;
+			visibility: hidden;
+		}
+
+		.alapuzha:hover .alapuzha-txt2 {
+			visibility: visible;
+			transition-duration: 0.5s;
+		}
+
+		.nilambur .nilambur-txt2 {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 465px;
+			left: 515px;
+			visibility: hidden;	
+
+		}
+
+		.nilambur:hover .nilambur-txt2 {
+			visibility: visible;
+			transition-duration: 5s;
+		}
+
+		.silent-valley .silent-valley-txt2 {
+			position: absolute;
+			font-family: Poppins;
+			font-size: 16px;
+			color: #fff;
+			top: 465px;
+			left: 915px;
+			visibility: hidden;
+		}
+
+		
+
+		.silent-valley:hover .silent-valley-txt2 {
+			visibility: visible;
+			transition-duration: 5s;
+		}
+
+
