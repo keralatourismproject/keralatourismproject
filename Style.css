@@ -259,11 +259,13 @@ html {
 				box-shadow: -10px 10px 25px #dedede;
 				color: #000;
 				filter: grayscale(100%);
+				transition-duration: 0.5s;
 			}
 
 			.village:hover, .cuisines:hover, .woods:hover {
 				filter: none;
-				transition-duration: 0.5s;
+				
+				box-shadow: -20px 10px 25px #dedede;
 			}
 			
 			
